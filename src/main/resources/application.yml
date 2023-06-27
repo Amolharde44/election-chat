@@ -1,0 +1,20 @@
+micronaut:
+  server:
+    cors:
+      enabled: true
+
+application:
+  name: electionSurvey
+  netty:
+  default:
+    allocator:
+      max-order: 3
+
+datasources:
+  default:
+    url: jdbc:sqlserver://localhost:1433
+    urltable: jdbc:sqlserver://localhost:1433
+    driverClassName: com.microsoft.sqlserver.jdbc.SQLServerDriver
+    username: Anemoi
+    password: Anemoi@123
+    databaseName: ecchat
